@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b734b649-4c5b-4789-b517-549e2eae13d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Vigade_otsing.py</StartupFile>
+    <StartupFile>ValikLaused.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="LOGITgv23.py" />
+    <Compile Include="ValikLaused.py" />
     <Compile Include="Vigade_otsing.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

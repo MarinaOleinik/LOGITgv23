@@ -12,7 +12,7 @@ print("Ristküliku karakteristikud")
 b=float(input("Sisesta ristküliku 1. külje pikkus => "))
 c=float(input("Sisesta ristküliku 2. külje pikkus => "))
 S=b*c
-print('Ristküliku pindala', S)
+print('Ristküliku pindala', S)# koment
 P=2*(b+c)
 print("Ristküliku ümbermõõt", P)
 di=sqrt(b**2+c**2)
