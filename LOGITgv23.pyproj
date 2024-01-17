@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b734b649-4c5b-4789-b517-549e2eae13d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Index.py</StartupFile>
+    <StartupFile>Kordused.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
