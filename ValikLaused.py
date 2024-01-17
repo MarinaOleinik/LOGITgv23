@@ -1,5 +1,41 @@
 from random import *
+#4
+alghind=randint(0,100000)/100 #0.00 - 1000.00
+if alghind>700:
+    soodustus=alghind*0.3
+    alghind-=soodustus
+    alghind*=0.7
+print("Uus hind on ", alghind)
 
+#3
+pikkus=float(input("Põranda pikkus: "))
+laius=float(input("Põranda laius: "))
+pindala=pikkus*laius
+print("Toa põranda pindala on:",pindala)
+valik=input("Kas tahad remondi teha? ")
+if valik.lower()=="jah":
+    hind=float(input("Kui palju maksab ruutmeeter? "))
+    summa=hind*pindala
+    print("Põranda vahetamise summa on",summa)
+
+
+
+#2 Pinginaabrid
+# "A", "B"
+n1=input("Esimene nimi")
+n2=input("Teine nimi")
+if n1.upper()=="A" and n2.upper()=="B" or n1.upper()=="B" and n2.upper()=="A":
+    print("Pinginaabrid")
+else:
+    print("Nad ei ole naabrid")
+if n1.upper() in ["A","B"] and n2.upper() in ["A","B"]:
+    print("Pinginaabrid")
+else:
+    print("Nad ei ole naabrid")
+
+
+
+#1 Juku läheb kinno
 nimi=input("Mis on sinu nimi?") #upper()-"JUKU",lower()-"juku",capitalize()-"Juku"
 if nimi.upper()=="JUKU":
     print("Lähme kinno")
