@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b734b649-4c5b-4789-b517-549e2eae13d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Kordused.py</StartupFile>
+    <StartupFile>Index.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Index.py" />
     <Compile Include="Kordused.py" />
     <Compile Include="LOGITgv23.py" />
     <Compile Include="ValikLaused.py" />
