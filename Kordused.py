@@ -1,3 +1,27 @@
+bussi_maht=int(input("Maht: "))#20
+k=int(input("Kogus: ")) #110
+#busside_arv=k//bussi_maht #100//20=5
+jääk=k%bussi_maht #10
+if jääk==0:
+    busside_arv=k//bussi_maht
+else:
+    busside_arv=k//bussi_maht+1
+print("On vaja ",busside_arv)
+
+
+
+
+
+
+#3
+from random import *
+p=1
+for i in range(8):
+    a=randint(-10,10)
+    print(a)
+    if a>0: p*=a
+print(p)
+
 #1
 print("1. variant")
 k=0
