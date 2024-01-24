@@ -6,9 +6,10 @@ tsekk="Arve: "+str(arve_nr)+"\nToode Hind Kogus Summa\n"
 summa=0
 
 tooded=["Piim","Leib","Kommid","Või"] #len(tooded)=4
+hinnad=[randint(50,150)/100,randint(50,150)/100,randint(100,1500)/100,randint(120,550)/100]
 for i in range(len(tooded)): #tooded[0]="Piim, tooded[1]="Leib", tooded[2]="Kommid"
     toode=tooded[i]
-    hind=randint(50,150)/100
+    hind=hinnad[i]
     v=input("Toode:"+toode+" Hind:"+str(hind)+"\nKas tahad osta?").lower()
     if v=="jah":
         mitu=int(input("Mitu?"))
