@@ -1,3 +1,36 @@
+from datetime import *
+from random import *
+#8 Poes
+arve_nr= date.today()#datetime.now()
+print(arve_nr)
+tsekk="Arve: "+str(arve_nr)+"\nToode Hind Kogus Summa\n"
+summa=0
+
+toode="Piim"
+hind=randint(50,150)/100
+v=input("Toode:"+toode+" Hind:"+str(hind)+"\nKas tahad osta?").lower()
+if v=="jah":
+    mitu=int(input("Mitu?"))
+    tsekk+=toode+"  "+str(hind)+"  "+str(mitu)+"  "+str(mitu*hind)+"\n"
+    summa+=mitu*hind
+toode="Leib"
+hind=randint(90,300)/100
+v=input("Toode:"+toode+" Hind:"+str(hind)+"\nKas tahad osta?").lower()
+if v=="jah":
+    mitu=int(input("Mitu?"))
+    tsekk+=toode+"  "+str(hind)+"  "+str(mitu)+"  "+str(mitu*hind)+"\n"
+    summa+=mitu*hind
+toode="Kommid"
+hind=randint(600,1500)/100
+v=input("Toode:"+toode+" Hind:"+str(hind)+"\nKas tahad osta?").lower()
+if v=="jah":
+    mitu=int(input("Mitu?"))
+    tsekk+=toode+"  "+str(hind)+"  "+str(mitu)+"  "+str(mitu*hind)+"\n"
+    summa+=mitu*hind
+tsekk+="Kokku maksta: "+str(summa)
+print(tsekk)
+
+
 bussi_maht=int(input("Maht: "))#20
 k=int(input("Kogus: ")) #110
 busside_arv=k/bussi_maht
