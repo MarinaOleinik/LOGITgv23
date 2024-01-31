@@ -1,5 +1,15 @@
 from datetime import *
 from random import *
+while True:
+    try:
+        a=float(input("..."))
+        if ....:
+            break
+    except ValueError:
+        print("...")
+
+
+
 #Praktiline töö
 #Ülesanne 5
 for i in range(1,11):
