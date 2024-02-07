@@ -2,7 +2,7 @@ from random import *
 nimed=["Kadri","Mirje","Maadis","Linda","Kadri"]
 while True:
     print("---------------------")
-    v=input("N-andmeta näitamine\nL-andmete lisamine\nK-andmete kustutamine\nS-andmete sorteerimine\nE-andmete eemaldamine\nP-andmete pööramine\nC-andmete kopeerimine\nI-indeksi otsing\n").upper()
+    v=input("N-andmeta näitamine\nL-andmete lisamine\nK-andmete kustutamine\nS-andmete sorteerimine\nE-andmete eemaldamine\nP-andmete pööramine\nC-andmete kopeerimine\nI-indeksi otsing\nM-muudame andmeid\n").upper()
     if v=="N":
         v=input("Kas kõik?(k) või Juhuslik nimi?(j)").lower()
         if v=="k":
@@ -65,7 +65,9 @@ while True:
                 print(indeks)
         else:
             print(f"{nimi} puubub")
-
+    elif v=="M":
+        uus_nimi="Marina"
+        nimed=[uus_nimi if nimi=="Kadri" else nimi for nimi in nimed]
 
 
 
