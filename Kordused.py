@@ -1,13 +1,22 @@
 from datetime import *
 from random import *
+L=10
+H=14
+for j in range(H):
+    for i in range(L):
+        print(f"{randint(-10,100):4}",end=" ")
+    print()
+
+print()
 while True:
     try:
-        a=float(input("..."))
-        if ....:
+        a=int(input("Mitu tk: "))
+        if 0<a<10:
             break
     except ValueError:
-        print("...")
-
+        print("Viga. Sisesta arv 1-9!")
+for i in range(a):
+    print("****")
 
 
 #Praktiline töö
