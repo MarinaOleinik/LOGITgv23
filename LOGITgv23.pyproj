@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b734b649-4c5b-4789-b517-549e2eae13d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>ListiUlesanded.py</StartupFile>
+    <StartupFile>FunktsioonideKasutamine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,11 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FunktsioonideKasutamine.py" />
     <Compile Include="Index.py" />
     <Compile Include="Kordused.py" />
     <Compile Include="ListiUlesanded.py" />
     <Compile Include="List_.py" />
     <Compile Include="LOGITgv23.py" />
+    <Compile Include="MyModul.py" />
     <Compile Include="Sirakus.py" />
     <Compile Include="ValikLaused.py" />
     <Compile Include="Vigade_otsing.py" />
