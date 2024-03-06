@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b734b649-4c5b-4789-b517-549e2eae13d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>FunktsioonideKasutamine.py</StartupFile>
+    <StartupFile>Too_failidega.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,8 +29,12 @@
     <Compile Include="LOGITgv23.py" />
     <Compile Include="MyModul.py" />
     <Compile Include="Sirakus.py" />
+    <Compile Include="Too_failidega.py" />
     <Compile Include="ValikLaused.py" />
     <Compile Include="Vigade_otsing.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Kuud.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
