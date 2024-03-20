@@ -24,13 +24,14 @@ def chekbutton_select(event):
         lb.insert(END,item)
 
 aken=Tk()
-aken.geometry("600x700")
+aken.geometry("740x700")
 aken.title("Tkinteri kasutamine. See on pealkiri")
 aken.iconbitmap("icon.ico")
 f=Frame(aken,bg="#346089",border=50,height=50,width=600)
 f_all=Frame(aken,bg="#5596d0",border=10,height=200,width=600)
-t="Minu esimene aken Tkinteri abil"
-l=Label(f,text=t,bg="#38761d",fg="#e7efe3",font="Castellar 16",height=3,width=len(t))
+
+l=Label(f,text="x**2",bg="#38761d",fg="#e7efe3",font="Castellar 16",height=3,width=4)
+a=Entry(f,bg="#38761d",width=4,font="Arial 20")
 e=Entry(f_all,bg="#e7efe3",fg="#38761d",font="Arial 20",width=30,justify=CENTER)#,show="*"
 e.bind("<Return>",naitatarnid) #Enteri peale vajutamine
 b=Button(f_all,text="Vajuta siia",bg="lightblue",font="Arial 20",relief=RAISED)#SUNKEN#GROOVE)
@@ -48,14 +49,19 @@ c1=Checkbutton(f_all,image=img1,variable=var1,bg="#5596d0",onvalue="Päike paist
 c2=Checkbutton(f_all,image=img2,variable=var2,bg="#5596d0",onvalue="Sajab vihn",offvalue="Vihma ei ole")
 c1.deselect()
 c2.deselect()
-lb=Listbox(f_all,height=2,width=20)
+lb=Listbox(f_all,height=2,width=30,font="Arial 20")
 
 f.grid(row=0,column=0) #place()-koordinaadid, pack()-nii nägu nimekirjas
-l.pack()
+a.grid(row=0,column=0)
+l.grid(row=0,column=1)
+
 
 f_all.grid(row=1,column=0)
-obj=[e,b,r1,r2,r3,c1,c2,lb]
+e.grid(row=0,column=0,columnspan=6)
+obj=[b,r1,r2,r3,c1,c2]
+i=0
 for o in obj:
-    o.pack()
-
+    o.grid(row=1,column=i)
+    i+=1
+lb.grid(row=2,column=0,columnspan=6)
 aken.mainloop()

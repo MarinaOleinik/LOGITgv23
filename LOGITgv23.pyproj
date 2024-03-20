@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b734b649-4c5b-4789-b517-549e2eae13d2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tkinteri_kasutamine.py</StartupFile>
+    <StartupFile>E_kirja_Saatmine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="E_kirja_Saatmine.py" />
     <Compile Include="FunktsioonideKasutamine.py" />
     <Compile Include="Index.py" />
     <Compile Include="Kordused.py" />
@@ -37,6 +38,7 @@
   <ItemGroup>
     <Content Include="icon.ico" />
     <Content Include="Kuud.txt" />
+    <Content Include="mail.ico" />
     <Content Include="paike.png" />
     <Content Include="vihm.png" />
   </ItemGroup>
