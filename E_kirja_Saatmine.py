@@ -16,7 +16,7 @@ def saada_kiri():
     smtp_server="smtp.gmail.com"
     port=587
     sender_email="oleinik.marina@gmail.com"
-    password="ohjk ounh rcwl bfxi" #InputBox()
+    password="sdas fssd dfsf ghgh" #InputBox()
     context=ssl.create_default_context()
     msg=EmailMessage()
     msg.set_content(kiri)
