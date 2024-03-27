@@ -30,12 +30,14 @@
     <Compile Include="LOGITgv23.py" />
     <Compile Include="MyModul.py" />
     <Compile Include="Sirakus.py" />
+    <Compile Include="Sonastik.py" />
     <Compile Include="Tkinteri_kasutamine.py" />
     <Compile Include="Too_failidega.py" />
     <Compile Include="ValikLaused.py" />
     <Compile Include="Vigade_otsing.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Est.txt" />
     <Content Include="icon.ico" />
     <Content Include="Kuud.txt" />
     <Content Include="mail.ico" />
