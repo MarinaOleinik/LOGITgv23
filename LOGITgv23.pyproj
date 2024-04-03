@@ -24,6 +24,7 @@
     <Compile Include="E_kirja_Saatmine.py" />
     <Compile Include="FunktsioonideKasutamine.py" />
     <Compile Include="Index.py" />
+    <Compile Include="Kaks_järjendid.py" />
     <Compile Include="Kordused.py" />
     <Compile Include="ListiUlesanded.py" />
     <Compile Include="List_.py" />
